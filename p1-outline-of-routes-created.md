@@ -1,0 +1,36 @@
+- # 4 Setting-up Routing
+  - `(home).jsx`
+  - `routes/[...notfound].tsx`
+  
+- # 5 Static Routes
+  - `/routes/contacts.tsx`
+  - `products/index.tsx`
+  - `/products/categories`
+    - `/categories/keyboards.tsx`
+    - `/categories/mice.tsx`
+
+- # 7 - Dynamic Routes
+  - `routes/users`
+  - `routes/users/[id].tsx`
+  - `routes/contacts.tsx`
+  - `routes/contacts`
+  - `routes/contacts/[[id]].tsx`
+  - `routes/division`.
+  - `routes/division/[divisionId]`.
+  - `routes/division/[divisionID]/[departmentId].tsx`:
+  - `routes/teams`.
+  - `[[team]]`.
+  - `[[player]].tsx`:
+  - `products/[...notfound].tsx`
+  - `routes/(company)`
+  - `(company)/products.tsx`
+  - `/products/categories.tsx`
+  - `(company)/products(list).tsx`
+- # 8 Redirecting
+  - `products/[...notfound].tsx`
+- # 9 Route Groups
+  - `routes/(company)`
+- # 10 Layotus
+  - `(company)/products.tsx`
+  - `/products/categories.tsx`
+  - `(company)/products(list).tsx`

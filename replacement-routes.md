@@ -5,10 +5,10 @@
 
 | chapter | old | new |
 |---------|-----|-----|
-| 4 Setting-up Routing | `(home).jsx` | maybe the same |
-| 4 Setting-up Routing | `routes/[...notfound].tsx` | no change |
-| 5 Static Routes | `/routes/contacts.tsx` | about.tsx |
-| 5 Static Routes | `products/index.tsx` |  |
+| 4 Setting-up Routing | `(home).jsx` | `(home).jsx` |
+| 4 Setting-up Routing | `routes/[...notfound].tsx` | `routes/[...notfound].tsx` |
+| 5 Static Routes | `/routes/contacts.tsx` | `about.tsx` |
+| 5 Static Routes | `products/index.tsx` | `products/(products).tsx` |
 | 5 Static Routes | `/products/categories` | folder |
 | 5 Static Routes | `/categories/keyboards.tsx` | |
 | 5 Static Routes | `/categories/mice.tsx` | |

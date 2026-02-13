@@ -28,3 +28,11 @@
 
 - **5 Static Routes**
   - File name -> Route Segment
+
+- **Navigation**
+  - nav for all the exising routes
+  - what about useNavigate (is that better called redirecting - yes it is)
+  - The `A` component
+  - The active route
+  - The end property
+  - 

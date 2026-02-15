@@ -1,15 +1,15 @@
-- # 4 Setting-up Routing
+- 4 Setting-up Routing
   - `(home).jsx`
   - `routes/[...notfound].tsx`
   
-- # 5 Static Routes
+- 5 Static Routes
   - `/routes/contacts.tsx`
   - `products/index.tsx`
   - `/products/categories`
     - `/categories/keyboards.tsx`
     - `/categories/mice.tsx`
 
-- # 7 - Dynamic Routes
+- 7 - Dynamic Routes
   - `routes/users`
   - `routes/users/[id].tsx`
   - `routes/contacts.tsx`
@@ -26,11 +26,11 @@
   - `(company)/products.tsx`
   - `/products/categories.tsx`
   - `(company)/products(list).tsx`
-- # 8 Redirecting
+- 8 Redirecting
   - `products/[...notfound].tsx`
-- # 9 Route Groups
+- 9 Route Groups
   - `routes/(company)`
-- # 10 Layotus
+- 10 Layotus
   - `(company)/products.tsx`
   - `/products/categories.tsx`
   - `(company)/products(list).tsx`

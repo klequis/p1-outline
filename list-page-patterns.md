@@ -11,6 +11,7 @@ src/
     └── products/
         ├── index.tsx
         └── $productId.tsx
+└── routes/
 ```
 
 **Scenario B: Static Blog**

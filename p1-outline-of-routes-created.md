@@ -1,19 +1,21 @@
 - 4 Setting-up Routing
-  - `(home).jsx`
-  - `routes/[...notfound].tsx`
   
-- 5 Static Routes
-  - `/routes/contacts.tsx`
+  
+- 5 Static Routes (FINAL)
+  - `index.jsx` -> `(home).jsx`
+  - `routes/[...notfound].tsx`
+  - `/routes/about.tsx`
   - `products/index.tsx`
-  - `/products/categories`
-    - `/categories/keyboards.tsx`
-    - `/categories/mice.tsx`
+  - `/products/`
+    - `index.tsx`
+    - `/keyboards.tsx`
+    - `/mice.tsx`
 
 - 7 - Dynamic Routes
   - `routes/users`
   - `routes/users/[id].tsx`
-  - `routes/contacts.tsx`
   - `routes/contacts`
+  - `routes/contacts.tsx`
   - `routes/contacts/[[id]].tsx`
   - `routes/division`.
   - `routes/division/[divisionId]`.
@@ -21,7 +23,7 @@
   - `routes/teams`.
   - `[[team]]`.
   - `[[player]].tsx`:
-  - `products/[...notfound].tsx`
+  - `products/[...notfound].tsx`starter project
   - `routes/(company)`
   - `(company)/products.tsx`
   - `/products/categories.tsx`

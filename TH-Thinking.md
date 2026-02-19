@@ -13,7 +13,16 @@
   - The UI
   - Run Example Code
   - Run Starter Proj
-  - Review Starter Proj [Code?]
+  - Review Starter ```
+├───📁 routes/
+    ├───📁 products/
+    │   ├───📄 index.tsx
+    │   ├───📄 keyboards.tsx
+    │   └───📄 mice.tsx
+    ├───📄 (home).tsx
+    ├───📄 [...notfound].tsx
+    └───📄 about.tsx
+```Proj [Code?]
 
   - **4 Routing Setup**
     - Install Router

@@ -46,7 +46,7 @@ app/
 app/
 ├── layout.tsx
 ├── page.tsx
-└── blog/
+└── blog/auto
     ├── page.tsx
     ├── my-first-post/
     │   └── page.tsx
@@ -63,7 +63,7 @@ app/
 **Scenario A: Dynamic Routes**
 ```
 src/
-└── routes/
+└── routes/>
     ├── index.tsx
     └── products/
         ├── index.tsx

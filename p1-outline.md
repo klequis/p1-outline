@@ -68,7 +68,6 @@
     - `routes/users/[id].tsx`
   - ## 7.2 Accessing Parameters
   - ## 7.3 Optional Parameters
-    - `routes/contacts.tsx`
     - `routes/contacts`
     - `routes/contacts/[[id]].tsx`
   - ## 7.4 Multiple Required Parameters

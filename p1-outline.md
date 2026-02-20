@@ -61,12 +61,12 @@
     - `/categories/mice.tsx`
     - `/categories/keyboards.tsx`
 
-- # 6 - Navigation
-- # 7 - Dynamic Routes
+- # 6 - Navigation (OUT OF DATE)
+- # 7 - Dynamic Routes (PARTIALLY OUT OF DATE)
   - ## 7.1 Required Parameters
     - `routes/users`
     - `routes/users/[id].tsx`
-  - ## 7.2 Accessing Parameters
+  - ## 7.2 Accessing Parameters**20260219 Out of date. See `routes-tree.md`**
   - ## 7.3 Optional Parameters
     - `routes/contacts`
     - `routes/contacts/[[id]].tsx`
@@ -80,11 +80,30 @@
     - `[[player]].tsx`
   - ## 7.6 Mixing Required and Optional Parameters
   - ## 7.7 Catch-all Routes are Dynamic
-- # 8 Redirecting
+- # 8 Redirecting (MERGED INTO NAVIGATION)
   - `products/[...notfound].tsx`
-- # 9 Route Groups
+- # 9 Route Groups (IS NOW CH 06)
   - `routes/(company)`
-- # 10 Layotus
-  - `(company)/products.tsx`
-  - `/products/categories.tsx`
-  - `(company)/products(list).tsx`
+- # 10 Layotus (IDEATION)
+  - *use cars again?*
+  - *put in group (layouts)*
+
+  1. Layout for a dir - not nested
+  2. Layout for sub-dir of dir in #1
+  3. Same segment as #1 but escaped
+  4. Layout for route roup (layouts)?
+     - they are not segments but can still have layouts
+
+  **concept**
+    * needs revision: have to add year to make and model*
+    - cars
+    - make is #1
+    - model is #2
+    - featured cars is #3
+
+
+
+  - OLD
+    - `(company)/products.tsx`
+    - `/products/categories.tsx`
+    - `(company)/products(list).tsx`

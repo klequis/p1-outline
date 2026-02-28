@@ -44,6 +44,19 @@
   - ## 4.4 The FileRoutes Component
 
   - ## 4.5 Adding the Root Route
+// @isLayout
+import { ParentProps } from 'solid-js'
+
+export default function Products(
+  props: ParentProps
+) {
+  return (
+    <div id="products" class="layout-component">
+      <div class="txt-xs">products.tsx (layout)</div>
+      {props.children}
+    </div>
+  )
+}
 
   - ## 4.6 Renaming Index
 
